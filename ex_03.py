@@ -1,5 +1,5 @@
-# 3) Desenvolva um programa que receba como entrada do usuário a população de uma cidade e a taxa de crescimento anual
-#    da população. Apresentar como resultado qual será a população da cidade em 15 anos.
+# 3) Desenvolva um programa que receba como entrada do usuário a população de uma cidade e a taxa de
+# crescimento anual da população. Apresentar como resultado qual será a população da cidade em 15 anos.
 
 # v1
 # popAtual = int(input("Qual a população na atualidade da cidade? "))
