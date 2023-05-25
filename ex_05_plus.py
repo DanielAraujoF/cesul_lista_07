@@ -18,7 +18,9 @@ for i in range(1, 11):
     else:
         print("Errou! Tente novamente.")
         if palpite < sorteio:
-            print
+            print("Muito baixo!")
+        elif palpite > sorteio:
+            print("Muito alto!")
 
 if not acertou:
     print(f"O número sorteado era {sorteio}.")
