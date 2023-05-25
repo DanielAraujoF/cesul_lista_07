@@ -3,11 +3,18 @@
 # acertar após as 10 tentativas, exibir o número sorteado.
 
 import random
-numeroAleatorio = random.randrange(10)
+x = 11
 
-numeroInformado = int(input("Foi gerado um número aleatório entre 0 a 10, tente acertá-lo.\n Informe um número: "))
+numeroAleatorio = random.randint(0, 10)
 
-if numeroInformado == numeroAleatorio:
-    print("Acertou! Meus parabéns!")
-else:
-    print(f"Errou! O número aleatório era {numeroAleatorio}. Tente novamente.")
+print("\nFoi gerado um número aleatório entre 0 a 10, tente acertá-lo.")
+
+for i in range(x):
+    chute = int(input("Insira o seu chute: "))
+
+    if chute != numeroAleatorio:
+        print("Errou! Tente novamente.")
+
+    else:
+        print("Acertou! Meus parabéns!.")
+        x = 1
